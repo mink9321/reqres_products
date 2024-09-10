@@ -24,7 +24,7 @@ public class Application {
             product.setStock(i*1000000);
             product.setImageUrl("/goods/img/"+p+".jpg");
 
-            // 상품 디테일 추가 - 양방향 관계
+            // 상품 디테일 추가 - 양방향 관계 
             ProductOption productOption = new ProductOption();
             productOption.setName(p + "_detail");
             productOption.setDesc(p + "_desc");
